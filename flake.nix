@@ -15,18 +15,6 @@
 		  Dont foget to use direnv if using an IDE such as VSCode.
 		  '';
       };
-
-      full = {
-        path = ./full;
-        description = "A template that shows all standard flake outputs";
-        welcomeText = ''
-          You just created a template that will show you all standard flake outputs.
-
-          Read more about it here:
-
-            https://github.com/NixOS/templates/tree/master/full
-        '';
-      };
     };
 
     defaultTemplate = self.templates.C;
