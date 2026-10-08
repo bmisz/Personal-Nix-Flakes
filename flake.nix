@@ -14,7 +14,8 @@
 
 	Dont foget to use direnv if using an IDE such as VSCode.
 	'';
-      }
+      };
+
       full = {
         path = ./full;
         description = "A template that shows all standard flake outputs";
